@@ -1,0 +1,103 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+.wtpBtn{
+    border:1px solid green;
+    border-radius: 5px;
+    padding: 10px 18px;
+    color: green;
+    font-size: 16px;
+}
+.wtpBtn i{
+    color: green;
+}
+.wtpBtn:hover{
+    border: 1px solid green;
+}
+.call{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 18px;
+    color: black;
+    font-size: 16px;
+    background: linear-gradient(to right, #B3D8A8, #EBE8DB);
+}
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner-content span{
+    color:#2d6917;
+}
+.banner-content p{
+    font-size: 18px;
+}
+
+.banner-content ul li{
+    list-style: none;
+    font-size: 18px;
+
+    
+}
+.banner-content ul li i{
+    color: #2d6917;
+}
+.banner-button button{
+    width: 50%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.banner-button button i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.banner-button button:first-child{
+    background: linear-gradient(to right, #B3D8A8, #EBE8DB);
+
+}
+.banner-form{
+    padding: 40px;
+
+}
+.banner-form h3{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.banner-form button{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to right, #B3D8A8, #EBE8DB);
+}
+.counter-section h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #2d6917;
+}
+.highlight-section{
+    background-color: #cdf1c0;
+}
+.highlight-content h2{
+    color: #2d6917;
+    font-size: 30px;
+    font-weight: 600;
+}
+.highlight-content p{
+    font-size: 18px;
+}
+.highlight-text h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2d6917;
+}
+.highlight-text p{
+    font-size: 14px;
+}
