@@ -16,18 +16,19 @@
 
 <body>
 
+    <!-- header -->
     <section class="container-fluid shadow-lg p-2 sticky-top top-0 bg-white ">
 
         <div class="container  ">
             <div class="row  ">
-                <div class="col-lg-3 col-12 align-items-lg-center">
-                    <div class="logo d-flex justify-content-center">
+                <div class="col-lg-3 col-12 justify-content-center align-items-lg-center">
+                    <div class="logo  ">
 
                         <p class="text-uppercase"> <i class="fa-solid fa-list me-2 "></i>Categories</p>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-12 d-flex justify-content-center ">
                     <div class="items">
                         <ul
                             class="d-flex flex-row justify-content-center align-items-center gap-4 list-unstyled text-uppercase">
@@ -39,8 +40,8 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3   col-12 text-center call-section">
-                    <div>
+                <div class="col-lg-3  d-flex justify-content-center  col-12 text-center call-section">
+                    <div class="">
                         <p> Call Support(+800) 123 4567 </p>
                     </div>
                 </div>
@@ -49,7 +50,7 @@
     </section>
 
 
-
+<!-- home Section -->
     <section class="container-fluid p-3">
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -71,19 +72,14 @@
 
 
         <div class="container  mt-5 py-2 rounded-3">
-            <div class="row p-3 d-flex align-items-center row-cols-lg-5 row-cols-md-2 row-cols-1 gy-4">
+            <div class="row p-3 d-flex align-items-center row-cols-lg-4 row-cols-md-2 row-cols-1 gy-4">
                 <div class="col">
                     <div class=" text-center p-4 rounded card">
                         <img src="https://media.istockphoto.com/id/1220608130/photo/mock-up-modern-interior-sofa-in-living-room-empty-wall.jpg?s=612x612&w=0&k=20&c=lyRNvB2LlgUQOw39zrjOyrdeCG5YcI4SLksVTC-AhvQ=" alt="Bed" class="img-fluid">
                         <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-                <div class="col">
-                    <div class=" text-center p-4 rounded card">
-                        <img src="https://media.istockphoto.com/id/1589496241/photo/interior-wall-mockup.jpg?s=612x612&w=0&k=20&c=UD9bASn0BEp5HvtZsCF2XBV_MafxNQ0Zm_9kUuanmDM=" alt="Bed" class="img-fluid">
-                        <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    </div>
-                </div>
+             
                 <div class="col">
                     <div class=" text-center p-4 rounded card">
                         <img src="https://media.istockphoto.com/id/1389889567/photo/living-room-wall-mockup.jpg?s=612x612&w=0&k=20&c=GI-ce1_df3obP6ASbvOjnwREaw-k3pgU3Q4qnJzUrBs=" alt="Bed" class="img-fluid">
@@ -203,47 +199,57 @@
 <!-- About us -->
 <section class="container-fluid py-lg-5 py-sm-4 py-3 aboutSection">
     <div class="container">
-        <div class="row justify-content-evenly "> <!-- Changed to justify-content-evenly for equal spacing -->
+        <div class="row row-cols-lg-4 row-cols-sm-4 row-cols-1 g-4"> 
             
-            <div class="col-lg-2 col-md-3 col-sm-5 col-10 mb-4"> <!-- Responsive column sizing -->
-                <div class="aboutCard border-0 d-flex justify-content-center align-items-center px-2 py-5 h-100">
-                    <div class="rounded-circle d-flex flex-column justify-content-center align-items-center">
-                        <img src="./images/boat_1193887 (4).png" width="50px" alt="Unique Design Icon">
-                        <h4 class="text-center mt-3">Unique Design</h4>
-                    </div>
+            <div class="col aboutCard border-0 d-flex justify-content-center align-items-center px-2 py-5">
+                <div class="rounded-circle d-flex flex-column justify-content-center align-items-center">
+                    <img src="./images/boat_1193887 (4).png" width="50px" alt="">
+                    <h4 class="text-center">Unique Design</h4>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-3 col-sm-5 col-10 mb-4">
-                <div class="aboutCard border-0 d-flex justify-content-center align-items-center px-2 py-5 h-100">
-                    <div class="rounded-circle d-flex flex-column justify-content-center align-items-center">
-                        <img src="./images/sticker_15396434.png" width="50px" alt="Premium Quality Icon">
-                        <h4 class="text-center mt-3 text-capitalize">Premium Quality</h4>
-                    </div>
+            <div class="col aboutCard border-0 d-flex justify-content-center align-items-center px-2 py-5">
+                <div class="rounded-circle d-flex flex-column justify-content-center align-items-center">
+                    <img src="./images/sticker_15396434.png" width="50px" alt="">
+                    <h4 class="text-center text-capitalize">Premium Quality</h4>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-3 col-sm-5 col-10 mb-4">
-                <div class="aboutCard border-0 d-flex justify-content-center align-items-center px-2 py-5 h-100">
-                    <div class="rounded-circle d-flex flex-column justify-content-center align-items-center">
-                        <img src="./images/on-time-delivery_18920604.png" width="50px" alt="On Time Delivery Icon">
-                        <h4 class="text-center mt-3 text-capitalize">On Time Delivery</h4>
-                    </div>
+            <div class="col aboutCard border-0 d-flex justify-content-center align-items-center px-2 py-5">
+                <div class="rounded-circle d-flex flex-column justify-content-center align-items-center">
+                    <img src="./images/on-time-delivery_18920604.png" width="50px" alt="">
+                    <h4 class="text-center text-capitalize">On Time Delivery</h4>
                 </div>
             </div>
 
-            <div class="col-lg-2 col-md-3 col-sm-5 col-10 mb-4">
-                <div class="aboutCard border-0 d-flex justify-content-center align-items-center px-2 py-5 h-100">
-                    <div class="rounded-circle d-flex flex-column justify-content-center align-items-center">
-                        <img src="./images/business_11898847.png" width="50px" alt="Member Gifts Icon">
-                        <h4 class="text-center mt-3 text-capitalize">Member Gifts</h4>
-                    </div>
+            <div class="col aboutCard border-0 d-flex justify-content-center align-items-center px-2 py-5">
+                <div class="rounded-circle d-flex flex-column justify-content-center align-items-center">
+                    <img src="./images/business_11898847.png" width="50px" alt="">
+                    <h4 class="text-center text-capitalize">Member Gifts</h4>
                 </div>
             </div>
 
         </div>
     </div>
 </section>
+
+
+
+<!-- Accordians -->
+
+<section class="container-fluid py-lg-5 py-sm-4 py-3 bg-secondary">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8" >
+                <h1 class="text-center">FAQs</h1>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
 
 
 
